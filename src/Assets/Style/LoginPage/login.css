@@ -1,0 +1,76 @@
+.LoginForm {
+  width: 40%;
+  margin: 10% auto;
+  background: linear-gradient(120deg, rgb(150, 150, 255), rgb(119, 255, 212));
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.LoginForm .LoginFormChild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+}
+.LoginForm .LoginFormChild input {
+  margin: 0.3em 0;
+  font-size: 2rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 0.1em solid rgb(53, 141, 255);
+}
+.LoginForm .LoginFormChild button {
+  background-color: blue;
+  color: aliceblue;
+  font-size: 2rem;
+  padding: 0.2em 1em;
+  margin: 1em 0;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1329px) {
+  .LoginForm .Heading {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 998px) {
+  .LoginForm {
+    width: 60%;
+  }
+}
+@media (max-width: 659px) {
+  .LoginForm {
+    width: 75%;
+  }
+}
+@media (max-width: 505px) {
+  .LoginForm {
+    width: 70%;
+  }
+  .LoginForm .Heading {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 426px) {
+  .LoginForm {
+    width: 80%;
+  }
+  .LoginForm .Heading {
+    font-size: 2rem;
+  }
+  .LoginForm .LoginFormChild input {
+    font-size: 1.5rem;
+  }
+  .LoginForm .LoginFormChild button {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 321px) {
+  .LoginForm {
+    width: 95%;
+  }
+}/*# sourceMappingURL=login.css.map */
