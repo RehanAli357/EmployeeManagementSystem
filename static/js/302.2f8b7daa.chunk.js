@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkems=self.webpackChunkems||[]).push([[302],{302:function(e,n,s){s.r(n);var t=s(791),u=s(689),c=s(918),r=s(184);n.default=function(){var e=(0,t.useContext)(c.Z).isLogin,n=(0,u.s0)();return(0,t.useEffect)((function(){!1===e&&n("/")})),(0,r.jsxs)(t.Fragment,{children:[(0,r.jsx)("h1",{children:"Top Level"}),(0,r.jsx)("button",{children:"Logout"})]})}}}]);
+//# sourceMappingURL=302.2f8b7daa.chunk.js.map
