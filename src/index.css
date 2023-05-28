@@ -1,19 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-size: 62.5%;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.Heading{
-    font-size: 4rem;
+.Heading {
+  font-size: 4rem;
+  text-align: center;
 }
 
+.Screen {
+  width: 90%;
+  background-color: rgba(240, 248, 255, 0.103);
+  filter: blur(1);
+  border-radius: 10em;
+  margin: 2% 0;
+  box-shadow: 0em 0em 10em aliceblue;
+}
+
+.Card {
+  background-color: transparent;
+  box-shadow: 0em 0em 10em rgb(0, 255, 94);
+  width: 450em;
+  display: flex;
+  min-height: 12vh;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
+  border-radius: 2em;
+  padding: 5em;
+  background-color: rgb(38, 255, 118);
+}
+.Card h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: blue;
+}
+.Card p {
+  margin-top: 1%;
+  font-size: 2rem;
+  color: rgb(118, 67, 5);
+}
+
+table {
+  background-color: black;
+  width: 70%;
+  margin: 3% auto;
+}
+
+table th {
+  background-color: gainsboro;
+  color: black;
+  font-size: 2rem;
+}
+table td {
+  color: aliceblue;
+  text-align: center;
+  background-color: rgb(28, 28, 28);
+  font-size: 1.5rem;
+}
+table td button {
+  margin: 0.1em;
+  font-size: 2rem;
+  padding: 0.1em 0.2em;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  table {
+    width: 90%;
+  }
+}

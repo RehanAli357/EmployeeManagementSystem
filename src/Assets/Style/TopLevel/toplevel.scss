@@ -1,0 +1,52 @@
+.Top{
+    width: 100%;
+    background:linear-gradient(45deg,rgb(0, 183, 255),rgb(3, 255, 150));
+    display: flex;
+    justify-content: center;
+    .TopScreen{
+        .Heading{
+            color: red;
+        }
+        .Greeting{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h2{
+                font-size: 2rem;
+                color: rgb(60, 0, 255);
+                margin-left: 1em;
+            }
+            button{
+                font-size: 1.5rem;
+                padding: 0.5em 2em;
+                margin-right: 1em;
+                background-color: transparent;
+                border: 0.2em solid aliceblue;
+                color: black;
+                font-weight: bold;
+                border-radius: 10em;
+                cursor: pointer;
+                transition: 0.3s;
+                &:hover{
+                    transition: 0.3s;
+                    box-shadow: inset 10em 0em 0em black;
+                    border-color: transparent;
+                    color: aliceblue;
+                }
+            }
+        }
+        .TopCards{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 2%;
+            margin-bottom: 4%;
+            flex-wrap: wrap;
+        }
+        h2{
+            text-align: center;
+            font-size: 3rem;
+            color: crimson;
+        }
+    }
+}

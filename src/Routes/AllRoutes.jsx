@@ -12,10 +12,10 @@ const AllRoutes = () => {
   return (
     <Suspense fallback={<h1>Loading..</h1>}>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
-        <Route path="/TopLevel" element={<TopLevel />} />
-        <Route path="/MidLevel" element={<MidLevel />} />
-        <Route path="/LowLevel" element={<LowLevel />} />
+        <Route exact path="/" element={<LoginPage />} />
+        <Route exact path="/TopLevel" element={<TopLevel />} />
+        <Route exact path="/MidLevel" element={<MidLevel />} />
+        <Route exact path="/LowLevel" element={<LowLevel />} />
       </Routes>
     </Suspense>
   );
